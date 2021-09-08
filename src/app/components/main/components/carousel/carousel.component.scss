@@ -1,0 +1,13 @@
+.mat-mini-fab.mat-accent.mat-button-disabled{
+    background-color: white !important;
+}
+
+::ng-deep .mat-button-disabled{
+    background-color: orange !important;
+}
+
+@media screen and(max-width: 875px){
+    ::ng-deep .carousel-slide, .carousel-slide-content{
+        height: 200px !important;
+    }
+}

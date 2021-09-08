@@ -1,0 +1,31 @@
+h2{
+    font-size: 26px;
+}
+
+.hr{
+    border-width: 2px;
+    border-color: #58201A;
+}
+
+.mat-expansion-panel{
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #F1561A !important;
+    p{
+        color: black;
+    }
+}
+
+.mat-icon{
+    border: 2px solid;
+    border-radius: 14px;
+}
+
+.mat-expansion-panel-header-title{
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+.mat-expansion-panel-header{
+    padding: 0 !important;
+}

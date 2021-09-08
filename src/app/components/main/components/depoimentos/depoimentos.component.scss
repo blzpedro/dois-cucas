@@ -1,0 +1,47 @@
+.box-depoimento{
+    border-color: lightgrey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    @media screen and(max-width: 875px) {
+        margin-bottom: 100px;
+        div.box-depoimento{
+            padding: 30px;
+        }
+    }
+    .img-center{
+        text-align: center;
+        margin-top: -70px;
+    }
+    p{
+        display: block;
+        font-weight: bold;        
+        text-transform: uppercase;
+        color: #58201A;
+        margin: 3px 0
+    }
+    p+span{
+        font-style: italic;
+    }
+    hr{
+        border-color:lightgrey;
+        border-width: 1px;
+    }
+    .text-justify{
+        text-align: justify;
+    }
+    p.text-justify{
+        color: black;
+        font-weight: normal;
+        font-size: 14px;
+        text-transform: initial;
+    }
+}
+
+
+@media screen and(max-width: 875px) {
+    div.justify-content-around{
+        padding: 0 30px;
+        margin: 0 auto;
+    }
+}

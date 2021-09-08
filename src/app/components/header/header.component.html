@@ -1,0 +1,34 @@
+<div>
+    <mat-toolbar class="menu-vertical">
+      <mat-toolbar-row>
+        <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm class="btn-hamburguer">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <img src="../../../assets/images/logo-dois-cucas.png" alt="Logo-DoisCucas" class="mr-auto ml-auto">
+        <span class="menu-spacer"></span>
+        <div fxShow="true" fxHide.lt-md class="menu-itens-vertical">
+          <a (click)="scroll('dois-cucas')" mat-button>DOIS CUCAS</a>
+          <a (click)="scroll('indicados')" mat-button>PARA QUEM?</a>
+          <a (click)="scroll('cursos')" mat-button>NOSSOS CURSOS</a>
+          <a (click)="scroll('depoimentos')" mat-button>DEPOIMENTOS</a>
+          <a (click)="scroll('faq')" mat-button>FAQ</a>
+          <a (click)="scroll('contato')" mat-button>CONTATO</a>
+        </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  
+    <mat-sidenav-container fxFlexFill class="menu-horizontal">
+      <mat-sidenav #sidenav>
+        <mat-nav-list class="menu-itens-horizontal">
+          <a (click)="scroll('dois-cucas')" mat-list-item>DOIS CUCAS</a>
+          <a (click)="scroll('indicados')" mat-list-item>PARA QUEM?</a>
+          <a (click)="scroll('cursos')" mat-list-item>NOSSOS CURSOS</a>
+          <a (click)="scroll('depoimentos')" mat-list-item>DEPOIMENTOS</a>
+          <a (click)="scroll('faq')" mat-list-item>FAQ</a>
+          <a (click)="scroll('contato')" mat-list-item>CONTATO</a>
+        </mat-nav-list>
+      </mat-sidenav>
+      <router-outlet></router-outlet>
+    </mat-sidenav-container>
+  </div>
+  

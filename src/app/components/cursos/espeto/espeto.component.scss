@@ -1,0 +1,45 @@
+h3{
+    font-weight: 500;
+}
+
+p{
+    width: 60%;
+    margin: 0 auto 20px auto;
+    @media screen and (max-width: 875px){     
+        width: 100%;
+    }
+}
+
+.w-100{
+    width: 100%
+}
+
+.material-indicado-icons{
+    width: 70%;
+    margin: 0 auto 20px auto;
+    img{
+        width: 100px;
+        margin-right: 20px;
+    }
+    span{
+        color: #58201A;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    div{
+        display: inline-flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
+.btn{
+    width: 400px;
+    margin: 30px auto;
+    display: block;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        transform: scale(1.1);
+    }
+}

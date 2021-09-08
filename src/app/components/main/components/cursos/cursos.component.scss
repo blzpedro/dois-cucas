@@ -1,0 +1,28 @@
+.cursos {
+    p{
+        color: #F1561A;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+    span{
+        text-align: justify;
+        display: block;
+        height: 80px;
+    }
+    a .btn{
+        width: 150px;
+        margin: 15px 0;
+        transition: all .2s ease-in-out;
+        @media screen and(max-width: 675px) {
+            margin: 40px 0;
+        }
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    img:first-child{
+        width: 100%;
+    }
+}

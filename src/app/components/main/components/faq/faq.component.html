@@ -1,0 +1,74 @@
+<div class="container">
+    <div class="row mt-5 mb-5" style="height: 100%;">
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <img src="../../../../../assets/images/faq.png" style="width: 100%;">
+        </div>
+        <div class="col-lg-6 col-sm-12 mt-5">
+            <div class="faq">
+                <h2 style="text-align: right;">PERGUNTAS FREQUENTES</h2>
+                <hr align="right"/>
+                <mat-accordion>
+                    <mat-expansion-panel class="mt-5" hideToggle="true" #open1>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          A compra é segura?
+                        </mat-panel-title>
+                        <mat-icon *ngIf="!open1.expanded">add</mat-icon>
+                        <mat-icon *ngIf="open1.expanded">remove</mat-icon>
+                      </mat-expansion-panel-header>
+                      <p>Sim, você usará a Hotmart para efetuar sua compra, que é a maior empresa de conteúdo
+                        digital para cursos do país, com sistema seguro de pagamento.</p>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel hideToggle="true" #open2>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          E se eu me arrepender?
+                        </mat-panel-title>
+                        <mat-icon style="color:#F1561A;" *ngIf="!open2.expanded">add</mat-icon>
+                        <mat-icon *ngIf="open2.expanded">remove</mat-icon>
+                      </mat-expansion-panel-header>
+                      <p>Como falamos acima, caso você não goste do material adquirido você tem até 7 dias
+                        corridos de garantia para solicitar seu reembolso através da Hotmart.</p>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel hideToggle="true" #open3>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Quais as formas de pagamento?
+                        </mat-panel-title>
+                        <mat-icon *ngIf="!open3.expanded">add</mat-icon>
+                        <mat-icon *ngIf="open3.expanded">remove</mat-icon>
+                      </mat-expansion-panel-header>
+                      <p>Varia de acordo com o curso escolhido. Recomendamos que você acesse a aba “Cursos”,
+                        selecione o de sua preferência e leia o descritivo que estará informando todas as formas de
+                        pagamento.</p>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel hideToggle="true" #open4>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Existe certificado?
+                        </mat-panel-title>
+                        <mat-icon *ngIf="!open4.expanded">add</mat-icon>
+                        <mat-icon *ngIf="open4.expanded">remove</mat-icon>
+                      </mat-expansion-panel-header>
+                      <p>Sim, todos os cursos disponibilizados pela Dois Cucas possuem certificado.</p>
+                    </mat-expansion-panel>
+                    
+                    <mat-expansion-panel hideToggle="true" #open5>
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Posso acessar imediatamente após pagar?
+                        </mat-panel-title>
+                        <mat-icon *ngIf="!open5.expanded">add</mat-icon>
+                        <mat-icon *ngIf="open5.expanded">remove</mat-icon>
+                      </mat-expansion-panel-header>
+                      <p>Somente nos pagamentos de cartão de crédito. Nesses casos, o sistema da Hotmart irá
+                        liberar o seu material imediatamente após a compra.</p>
+                    </mat-expansion-panel>
+                </mat-accordion>
+            </div>
+        </div>
+    </div>
+</div>
